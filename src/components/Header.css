@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	justify-content: center;
+	background-color: chartreuse;
+}
+
+.header img {
+	background-image: url({props.src});
+	height: 100px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 10px;
+}
